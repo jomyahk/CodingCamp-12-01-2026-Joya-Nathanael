@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-wrapper">
+        <img src="gambar/logo.png" alt="Company Logo" class="logo-img">
+        <span class="logo-text">Joy Company</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Our Profile</a>
+        <a href="#message">Message Us</a>
+    </nav>
+</header>
+
+
+<section class="welcome">
+    <h2 id="welcomeText">Hi, Welcome To Website</h2>
+    <p>Solusi Digital Terpercaya untuk Bisnis Anda</p>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <img src="gambar/gambar1.jpg" alt="Banner Company">
+
+        <div class="banner-overlay">
+            <h3>Innovative Digital Company</h3>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="hq">
+    <h3><i class="fa-solid fa-location-dot"></i> Our Headquarter</h3>
+    <div class="hq-container">
+
+        <div class="hq-item">
+            <img src="gambar/jkt.jpg" class="hq-icon">
+            <p>Jakarta</p>
+        </div>
+
+        <div class="hq-item">
+            <img src="gambar/bdng.jpg" class="hq-icon">
+            <p>Bandung</p>
+        </div>
+
+        <div class="hq-item">
+            <img src="gambar/sby.jpeg" class="hq-icon">
+            <p>Surabaya</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="message" id="message">
+    <form id="contactForm">
+        <h3>Message Us</h3>
+
+        <label>Nama</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <label>Nomor Telepon</label>
+        <input type="text" id="phone">
+
+        <label>Pesan</label>
+        <textarea id="messageText"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="output" id="output">
+        <p><strong>Current Time:</strong> -</p>
+        <p><strong>Nama:</strong> -</p>
+        <p><strong>Email:</strong> -</p>
+        <p><strong>Nomor Telepon:</strong> -</p>
+        <p><strong>Pesan:</strong> -</p>
+    </div>
+</section>
+
+<footer>
+    Created By Joya Nathanael
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
