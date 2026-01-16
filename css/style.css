@@ -66,7 +66,7 @@ nav a:hover {
     opacity: 0.85;
 }
 
-/* ===== BANNER FIX ===== */
+/* ===== BANNER ===== */
 .banner {
     position: relative;
     width: 100%;
@@ -228,7 +228,7 @@ button:hover {
     color: #0f172a;
 }
 
-/* Banner reuse (sama dengan Home) */
+/* Banner reuse */
 .banner {
     position: relative;
     width: 100%;
